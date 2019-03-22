@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appGuide dispatches onViewedIntro from onDone prop 1`] = `Array []`;
+
+exports[`appGuide dispatches onViewedIntro from onSkip prop 1`] = `Array []`;
+
+exports[`appGuide renders correctly with appGuide has no viewed property 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide1
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide2
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide999
+  </Text>
+</View>
+`;
+
+exports[`appGuide renders correctly with appGuide.viewed === false 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide1
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide2
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide999
+  </Text>
+</View>
+`;
+
+exports[`appGuide renders correctly with appGuide.viewed === true 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide1
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide2
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+  >
+    slide999
+  </Text>
+</View>
+`;
